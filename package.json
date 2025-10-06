@@ -1,0 +1,18 @@
+{
+  "name": "smart-exam-slot-scheduler",
+  "version": "1.0.0",
+  "description": "Smart Exam Slot Scheduler: Node server + C++ scheduler + web UI",
+  "main": "exam_scheduler_server.js",
+  "scripts": {
+    "start": "node exam_scheduler_server.js",
+    "dev": "node exam_scheduler_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
